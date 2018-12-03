@@ -1,0 +1,75 @@
+.globoDerecha {
+    background-color: #D0EAFB/*#B2DCF9*/;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 18px;
+    position: relative;
+    vertical-align: top;
+    float: right;   
+    margin: 5px 5px 5px 20px; 
+    width: 80%;
+}
+
+
+.globoIzquierda {
+    float: left;
+    background-color: #F6F7F8;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 10px 18px;
+	position: relative;
+	vertical-align: top;
+	margin: 10px 10px;
+	border-color: #cdecb0;
+	width: 80%;
+    
+}
+
+.contenedorGlobosDelChat 
+{
+    padding: 0px;
+    float: none;
+    height: 350px;
+    width: 100%;
+    font-size: 15px;
+    background: white;
+    overflow-y: scroll;
+}
+
+
+.pieGloboChat {
+    float: right;
+    
+    font-style: italic;
+    font-size: 60%;
+    display: inline;
+}
+
+.pieGloboTexto 
+{
+    display: block;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+.botonDescargarArchivoChatView 
+{
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.globoIzquierda .botonDescargarArchivoChatView {
+    float: left;
+}
+
+
+.pieGloboTextoUsuario 
+{
+    font-style: italic;
+    font-size: 60%;
+    float: left;
+    width: 100%;
+    font-weight: bolder;
+    display: inline;
+}
