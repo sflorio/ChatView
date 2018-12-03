@@ -43,7 +43,7 @@ function generarGloboChatIzquierda(item) {
 function dibujarItemGloboChat(item) {
     var html = "<div id='GloboChat'>";
 
-    html += generarCabeceraGloboChat( item.SectoresUB, item.MailEnvio, item.Visible);
+    html += generarCabeceraGloboChat( item.Sectores, item.MailEnvio, item.Visible);
     html += generarCuerpoGloboChat(item.Detalle);
     html += generarPieGloboChat(js_yyyy_mm_dd_hh_mm_ss(item.FechaCreacion), item.tieneDocumento, item.IDDetalleSolicitud);
     html += "</div>";
